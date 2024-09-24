@@ -1,0 +1,8 @@
+<ion-list lines="full">
+    <ion-item
+        *ngFor="let category of categories" (click)="selectedEvent.emit(category.uuid)">
+        <ion-label>
+            {{category.title }}
+        </ion-label>
+    </ion-item>
+</ion-list>

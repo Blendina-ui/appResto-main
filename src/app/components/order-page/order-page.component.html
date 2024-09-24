@@ -1,0 +1,79 @@
+
+
+<p>
+  <small>
+    v.0.0.3
+  </small>
+</p>
+  
+<ion-content class="ion-no-padding">
+  <!-- Horizontal scrollable categories section with flexbox and native scrolling -->
+  <div class="categories-container">
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let category of categories$ | async" (click)="selectedCategoryId = category.uuid">
+          <ion-card>
+            <ion-avatar slot="start">
+              <img [src]="" />
+            </ion-avatar>
+            <ion-card-content>
+              <p>{{ category.title | uppercase }}</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <!-- Food Items Grid Section -->
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let category of (categories$ | async) | filterByCategoryID: selectedCategoryId">
+        <ion-card *ngFor="let recipe of category.recipes">
+          <ion-avatar slot="start">
+            <img [src]="" />
+          </ion-avatar>
+          <ion-card-content>
+            <h2>{{ recipe.title }}</h2>
+            <p>{{ recipe.description }}</p>
+            <p>{{ recipe.price | currency }}</p>
+            <ion-button expand="full" (click)="addToForm(recipe.uuid, recipe.price)">Add</ion-button>
+            <ion-button expand="full" (click)="deleteToForm(recipe.uuid, recipe.price)">Remove</ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <app-update />
+</ion-content>
+
+
+
+
+
+<!-- <ion-content class="ion-padding">
+
+  
+
+  <app-menu-categories [categories]="categories" (selectedEvent)="selectedCategoryId = $event" /> 
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card-header>
+          <ion-card-title>
+
+          </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+
+        </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+
+</ion-content> -->
