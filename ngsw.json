@@ -1,0 +1,131 @@
+{
+  "configVersion": 1,
+  "timestamp": 1727172747578,
+  "index": "/appResto-main/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/appResto-main/chunk-4WFVMWDK.js",
+        "/appResto-main/chunk-5O7PAI7F.js",
+        "/appResto-main/chunk-6IYGSXEJ.js",
+        "/appResto-main/chunk-AEH2CUDJ.js",
+        "/appResto-main/chunk-B43CU5JX.js",
+        "/appResto-main/chunk-CKC2S23I.js",
+        "/appResto-main/chunk-CL2FVWQJ.js",
+        "/appResto-main/chunk-DXA5LCJW.js",
+        "/appResto-main/chunk-F7XBNY6P.js",
+        "/appResto-main/chunk-FA25AEA4.js",
+        "/appResto-main/chunk-FEOEXO5Y.js",
+        "/appResto-main/chunk-FMYBGH6B.js",
+        "/appResto-main/chunk-GW22CO6Y.js",
+        "/appResto-main/chunk-JHI3MBHO.js",
+        "/appResto-main/chunk-LF5XB4YN.js",
+        "/appResto-main/chunk-LP56U57J.js",
+        "/appResto-main/chunk-LPOJB6NB.js",
+        "/appResto-main/chunk-NMYJD6OP.js",
+        "/appResto-main/chunk-NY7FVCUI.js",
+        "/appResto-main/chunk-S7YQPZNS.js",
+        "/appResto-main/chunk-SZCKUWL4.js",
+        "/appResto-main/chunk-T5YM5TA6.js",
+        "/appResto-main/chunk-TAFVU7UN.js",
+        "/appResto-main/chunk-TQEIIVVC.js",
+        "/appResto-main/chunk-UO5XBXJS.js",
+        "/appResto-main/chunk-YODJ45FK.js",
+        "/appResto-main/favicon.ico",
+        "/appResto-main/index.html",
+        "/appResto-main/main-5F7IDIJT.js",
+        "/appResto-main/manifest.webmanifest",
+        "/appResto-main/polyfills-SCHOHYNV.js",
+        "/appResto-main/styles-LUF7REVR.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/appResto-main/icons/icon-128x128.png",
+        "/appResto-main/icons/icon-144x144.png",
+        "/appResto-main/icons/icon-152x152.png",
+        "/appResto-main/icons/icon-192x192.png",
+        "/appResto-main/icons/icon-384x384.png",
+        "/appResto-main/icons/icon-512x512.png",
+        "/appResto-main/icons/icon-72x72.png",
+        "/appResto-main/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/appResto-main/chunk-4WFVMWDK.js": "5b6d47107e58373ea3dc79e4e6878406e21505e8",
+    "/appResto-main/chunk-5O7PAI7F.js": "96a34058069b678fd1b05cb45588d724d956c67b",
+    "/appResto-main/chunk-6IYGSXEJ.js": "bf9fdcdf990c137a1885c6db341521afda25eb80",
+    "/appResto-main/chunk-AEH2CUDJ.js": "083fcc741049abe6dbbda16be6e6832822c05316",
+    "/appResto-main/chunk-B43CU5JX.js": "73485691923b650ef3c649d634c71239c18c0416",
+    "/appResto-main/chunk-CKC2S23I.js": "e3f5be70931a6ac49a9225e0e65b058deac8b637",
+    "/appResto-main/chunk-CL2FVWQJ.js": "a906b1f50136d2aa1722747059b33dc1727b8838",
+    "/appResto-main/chunk-DXA5LCJW.js": "b4b25eeb461916e7e530fb33c5d806d371e3a296",
+    "/appResto-main/chunk-F7XBNY6P.js": "f8aa0d06431c3ca3e5a7aa7435cfbea110325570",
+    "/appResto-main/chunk-FA25AEA4.js": "67b189f290ca6770c1314e442b21f2feb4f64d07",
+    "/appResto-main/chunk-FEOEXO5Y.js": "6c961f325dd5f0402212c2760a30bf4cf1622163",
+    "/appResto-main/chunk-FMYBGH6B.js": "64434178fef7c0818c1746888b63fc099705b8e2",
+    "/appResto-main/chunk-GW22CO6Y.js": "0856be49a1bba8cf2ef393009ed0cc3cd2091159",
+    "/appResto-main/chunk-JHI3MBHO.js": "a36b3242848dc514776e1c7fd2cc5d64f3a737b2",
+    "/appResto-main/chunk-LF5XB4YN.js": "9a4312a44cc8ab8573488a48a18c01a6bb352c6b",
+    "/appResto-main/chunk-LP56U57J.js": "9a7e026e8af8dce94216c253102081f9dd1b0267",
+    "/appResto-main/chunk-LPOJB6NB.js": "92d00b5abb73533e36a341ece83f85818342c449",
+    "/appResto-main/chunk-NMYJD6OP.js": "0175118cb5ac5fb567dcfbf6a8bcb81ace8edf1a",
+    "/appResto-main/chunk-NY7FVCUI.js": "e82dd5f46276234ee5841aef3e7fdfb3c4cee46c",
+    "/appResto-main/chunk-S7YQPZNS.js": "7157a1426aca7b11b035936dc26d00ff97032408",
+    "/appResto-main/chunk-SZCKUWL4.js": "3bfa88d14f3c895d2d3a69ef6a5a9733e76f3391",
+    "/appResto-main/chunk-T5YM5TA6.js": "d0213bce03d523ab6963876bbf3f278cf3098f52",
+    "/appResto-main/chunk-TAFVU7UN.js": "1851d67c35bb56cd0a0a4766711f7f28048650aa",
+    "/appResto-main/chunk-TQEIIVVC.js": "c7296efb75e44b6c5b31377a35aaf8879f17f8b1",
+    "/appResto-main/chunk-UO5XBXJS.js": "bf2ff9fd637bf9d0648cd52b135cc43c97d39776",
+    "/appResto-main/chunk-YODJ45FK.js": "45f9c127cece4e536724ab181b931917c03eecef",
+    "/appResto-main/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/appResto-main/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/appResto-main/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/appResto-main/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/appResto-main/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/appResto-main/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/appResto-main/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/appResto-main/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/appResto-main/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/appResto-main/index.html": "fc6f0ef9be92020ca112463e8f90fbb5a7358ac9",
+    "/appResto-main/main-5F7IDIJT.js": "978b1024395c077b12486a037c4ea474f614d0b2",
+    "/appResto-main/manifest.webmanifest": "e6a4f1d046589609e28847025d55532e5daf6dfe",
+    "/appResto-main/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
+    "/appResto-main/styles-LUF7REVR.css": "8a9a7e3107995610f0c99aafd9c9f707f5196fcc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
